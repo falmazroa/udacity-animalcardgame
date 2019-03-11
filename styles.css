@@ -1,0 +1,41 @@
+/* I have added the img ID selector (animalimage) because the image i used is way wider than 300px which is the required size of 300px by 200px */
+.animalimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+/* used text indentaion here because i wanted the title of this card to be aligned with the picture and border for info*/
+h3 {
+  text-indent: 10px;
+}
+#intfact {
+  font-style: italic;
+}
+body {
+  background-color: black;
+  color: white;
+  width: 325px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding: 5px;
+  border-radius: 20px;
+ }
+.anminfo {
+  border-style: solid;
+  margin: 15px;
+  padding: 15px;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 20px;
+ }
+ li {
+  list-style-type: none;
+  margin-left: -38px
+ }
+li span {
+  font-weight: bold;
+}
